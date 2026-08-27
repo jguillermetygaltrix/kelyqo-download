@@ -27,6 +27,25 @@ Paste it into the **Invite code** box on the Pulsar start screen. It fills in
 the room for you and shows which machine you are joining. Type your name and
 press **Join room**.
 
+## Hosting a room (the person everyone joins)
+
+One person hosts; everyone else joins them. To host, open **Settings** (the gear
+icon) and switch on **Let friends join this machine**. Pulsar restarts and
+becomes reachable on your local network, protected by a room password it
+generates for you.
+
+Then join a room and press **Copy invite** — send that code to whoever you want
+in. The invite carries the address, the room and the password together, so they
+only have to paste one thing.
+
+Leave the switch off and Pulsar is completely private: nothing outside your own
+computer can reach it. That is the default, and it stays that way until you
+change it.
+
+**The first time you host, Windows Defender Firewall will ask whether to allow
+Pulsar.** Say yes, and tick **Private networks**. If you dismissed that prompt,
+Windows quietly created a block rule and nobody will be able to connect.
+
 ## In a call
 
 | Button | What it does |
