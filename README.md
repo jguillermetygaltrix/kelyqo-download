@@ -1,4 +1,4 @@
-# Pulsar
+# Kelyqo
 
 Voice, webcam and screen sharing for small groups — without the memory tax.
 
@@ -6,8 +6,8 @@ Made by [Galtrix](https://galtrixtech.com). Windows app.
 
 ## Download
 
-Grab the latest `Pulsar-win-x64.zip` from **[Releases](../../releases)**, unzip
-it anywhere, and run **Pulsar.exe**.
+Grab the latest `Kelyqo-win-x64.zip` from **[Releases](../../releases)**, unzip
+it anywhere, and run **Kelyqo.exe**.
 
 The zip holds two files: the app and this guide. Nothing to install, no account,
 no sign-up, no email. It does not need .NET or Node — everything it uses is
@@ -24,17 +24,17 @@ is because it is not code-signed yet; choose **More info → Run anyway**.
 Someone sends you an invite that looks like this:
 
 ```
-PULSAR-eyJoIjoiMTkyLjE2OC4wLjQ2OjM...
+KELYQO-eyJoIjoiMTkyLjE2OC4wLjQ2OjM...
 ```
 
-Paste it into the **Invite code** box on the Pulsar start screen. It fills in
+Paste it into the **Invite code** box on the Kelyqo start screen. It fills in
 the room for you and shows which machine you are joining. Type your name and
 press **Join room**.
 
 ## Hosting a room (the person everyone joins)
 
 One person hosts; everyone else joins them. To host, open **Settings** (the gear
-icon) and switch on **Let friends join this machine**. Pulsar restarts and
+icon) and switch on **Let friends join this machine**. Kelyqo restarts and
 becomes reachable on your local network, protected by a room password it
 generates for you.
 
@@ -42,12 +42,12 @@ Then join a room and press **Copy invite** — send that code to whoever you wan
 in. The invite carries the address, the room and the password together, so they
 only have to paste one thing.
 
-Leave the switch off and Pulsar is completely private: nothing outside your own
+Leave the switch off and Kelyqo is completely private: nothing outside your own
 computer can reach it. That is the default, and it stays that way until you
 change it.
 
 **The first time you host, Windows Defender Firewall will ask whether to allow
-Pulsar.** Say yes, and tick **Private networks**. If you dismissed that prompt,
+Kelyqo.** Say yes, and tick **Private networks**. If you dismissed that prompt,
 Windows quietly created a block rule and nobody will be able to connect.
 
 ## In a call
@@ -65,7 +65,7 @@ it never touches your system audio.
 
 ## What to know before you join
 
-- **Only join rooms from people you know.** Pulsar connects everyone directly to
+- **Only join rooms from people you know.** Kelyqo connects everyone directly to
   each other, so the people in a room can see each other's IP addresses. That is
   how peer-to-peer calling works and it is not something an invite hides.
 - **Treat an invite like a password.** Anyone holding it can join that room.
@@ -79,7 +79,7 @@ camera open. Elgato Camera Hub, OBS, Zoom and Teams all hold it exclusively.
 Close it and press Cam again.
 
 **Friends cannot reach you.** Windows Defender Firewall shows a prompt the first
-time; if it was dismissed, it silently created a block rule. Allow Pulsar on
+time; if it was dismissed, it silently created a block rule. Allow Kelyqo on
 Private networks.
 
 ---
