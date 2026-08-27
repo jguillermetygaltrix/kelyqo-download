@@ -9,8 +9,12 @@ Made by [Galtrix](https://galtrixtech.com). Windows app.
 Grab the latest `Pulsar-win-x64.zip` from **[Releases](../../releases)**, unzip
 it anywhere, and run **Pulsar.exe**.
 
-Nothing else to install. No account, no sign-up, no email. The app is
-self-contained — it does not need .NET, Node, or anything from this page.
+The zip holds two files: the app and this guide. Nothing to install, no account,
+no sign-up, no email. It does not need .NET or Node — everything it uses is
+inside the executable.
+
+The first launch takes a few seconds longer while the app unpacks itself. Every
+launch after that is immediate.
 
 Windows may warn that the app is from an unknown publisher the first time. That
 is because it is not code-signed yet; choose **More info → Run anyway**.
